@@ -1,0 +1,37 @@
+.animate__animated.animate__fadeIn {
+    --animate-duration: 3s;
+  }
+
+.animate__animated.animate__fadeIn.wow {
+    --animate-delay: 1s;
+  }
+
+.animate__animated.animate__fadeIn.wow.row {
+    --animate-duration: 1s;
+    --animate-delay: 0.5s;
+  }
+
+.animate__animated.animate__fadeIn.px-5 {
+    --animate-delay: 0.5s;
+  }
+
+.animate__animated.animate__rubberBand {
+    --animate-duration: 6s;
+  }
+
+.animate__animated.animate__fadeInUp {
+    --animate-duration: 1s;
+    --animate-delay: 0.3s;
+  }
+
+
+.scrolled-down{
+  transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+  transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+
+.dropdown-menu li:hover .sub-menu {visibility: visible;}
+.dropdown:hover .dropdown-menu {display: block;}

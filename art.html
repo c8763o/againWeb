@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>again</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" href="./img/a_word_whiteBG.png">
+</head>
+
+<body>
+
+    <!-- 導覽列 -->
+    <nav class="autohide navbar navbar-expand-lg navbar-light bg-light px-2 fixed-top opacity-75">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./img/again_word.png" alt="logo" width="me-auto" height="70">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold" href="./index.html">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold" href="./core.html">主旨</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold" href="./story.html">故事</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold" href="./team.html">團隊</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-5 fw-bold active" aria-current="page" href="#"
+                            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            美術
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item fw-bold text-secondary" href="#Btn4Figure">人物</a></li>
+                            <li><a class="dropdown-item fw-bold text-secondary" href="#Btn4Scene">場景</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item fw-bold text-secondary" href="#process">製作過程</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- 人物 -->
+    <div class="container-fluid py-4 px-5 bg-dark">
+        <p>
+            <button
+                class="Btn4Figure btn btn-outline-light fs-4 animate__animated animate__heartBeat animate__repeat-2 wow"
+                type="button" data-bs-toggle="collapse" data-bs-target="#figure" aria-expanded="true"
+                aria-controls="figure" id="Btn4Figure">
+                人物 ▾
+            </button>
+        </p>
+        <div class="collapse show" id="figure">
+            <div class="card card-body">
+                <div id="carouselFigure" class="carousel carousel-dark slide mx-auto w-75" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#figure1" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#figure2" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#figure3" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="./img/figure1.png" class="d-block w-100" alt="figure1">
+                            <div class="carousel-caption d-none d-md-block bg-light opacity-75 p-0">
+                                <h5 class="fw-bold">人物草圖</h5>
+                                <p class="fw-bold">人物在不同心境會有不同的彩度</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./img/figure2.png" class="d-block w-100" alt="figure2">
+                            <div class="carousel-caption d-none d-md-block bg-light opacity-75 p-0">
+                                <h5 class="fw-bold">人物建模</h5>
+                                <p class="fw-bold">比較慘淡的心境</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./img/figure3.png" class="d-block w-100" alt="figure3">
+                            <div class="carousel-caption d-none d-md-block bg-light opacity-75 p-0">
+                                <h5 class="fw-bold">人物建模</h5>
+                                <p class="fw-bold">最後下定決心邁向夢想的心境</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFigure"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFigure"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid px-5 bg-dark">
+        <hr class="bg-light border border-light my-0">
+    </div>
+
+
+    <!-- 場景 -->
+    <div class="container-fluid py-4 px-5 bg-dark">
+        <p>
+            <button
+                class="Btn4Scene btn btn-outline-light fs-4 animate__animated animate__heartBeat animate__repeat-2 wow"
+                type="button" data-bs-toggle="collapse" data-bs-target="#scene" aria-expanded="true"
+                aria-controls="scene" id="Btn4Scene">
+                場景 ▾
+            </button>
+        </p>
+        <div class="collapse show" id="scene">
+            <div class="card card-body">
+                <div id="carouselScene" class="carousel carousel-dark slide mx-auto w-75" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#scene1" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#scene2" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#scene3" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="./img/room1.png" class="d-block w-100" alt="scene1">
+                            <div class="carousel-caption d-none d-md-block bg-light opacity-75 p-0">
+                                <h5 class="fw-bold">房間建模</h5>
+                                <p class="fw-bold">主角的房間，採用比較強烈的美術風格</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./img/classRoom.png" class="d-block w-100" alt="scene2">
+                            <div class="carousel-caption d-none d-md-block bg-light opacity-75 p-0">
+                                <h5 class="fw-bold">教室建模</h5>
+                                <p class="fw-bold">教室的場景都在這裡拍攝</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./img/corridor.png" class="d-block w-100" alt="scene3">
+                            <div class="carousel-caption d-none d-md-block bg-light opacity-75 p-0">
+                                <h5 class="fw-bold">走廊建模</h5>
+                                <p class="fw-bold">就是走廊</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselScene"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselScene"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid px-5 bg-dark">
+        <hr class="bg-light border border-light my-0">
+    </div>
+
+
+    <!-- 製作過程 -->
+    <div class="container-fluid bg-dark text-light d-flex justify-content-center align-items-center py-3 py-md-4 py-lg-5"
+        id="process">
+        <div class="row">
+            <h1 class="text-center fw-bolder animate__animated animate__fadeIn">製作過程</h1>
+            <h4
+                class="text-light text-center fw-bold mt-4 px-5 lh-lg animate__animated animate__fadeIn animate__delay-1s animate__fast wow">
+                要求分析 > 故事發想 > 分鏡腳本 > 角色、場景設計 > 角色、場景建模 > 標準字設計 > 動畫補捉 > 音樂收集 > 動畫製作 > 動畫後製
+            </h4>
+            <h5
+                class="text-light text-center fw-bold mt-4 px-5 lh-lg animate__animated animate__fadeIn animate__delay-1s animate__fast wow">
+                途中經過多次修改，包括故事和標準字的修改，動補使用的程式也一直滾動修正，為了打造最完美的做品。
+            </h5>
+            <a  href="https://www.youtube.com/watch?v=jFZbYDrY1-k&ab_channel=C.y." target="_blank"
+                class="fs-5 text-light text-center fw-bold mt-4 px-5 lh-lg animate__animated animate__fadeIn animate__delay-1s animate__fast wow">
+                舊的分鏡影片
+            </a>
+        </div>
+    </div>
+
+    <!-- 輪播 -->
+    <div class="container-fluid py-4 px-5 bg-dark">
+        <p>
+            <button
+                class="Btn4Process btn btn-outline-light fs-4 animate__animated animate__heartBeat animate__repeat-2 wow"
+                type="button" data-bs-toggle="collapse" data-bs-target="#process" aria-expanded="true"
+                aria-controls="scene" id="Btn4Process">
+                製作過程 ▾
+            </button>
+        </p>
+        <div class="collapse show" id="process">
+            <div class="card card-body">
+                <div id="carouselProcess" class="carousel carousel-dark slide mx-auto w-75" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#process1" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#process2" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#process3" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#process4" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="./img/oldRoom.png" class="d-block w-100" alt="process1">
+                            <div class="carousel-caption d-none d-md-block bg-light opacity-75 p-0">
+                                <h5 class="fw-bold">舊-房間</h5>
+                                <p class="fw-bold">原本是用比較普通的材質，但後來覺得toon shader更有魅力一些，也更符合我們的視覺心理學</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./img/oldLogotype.png" class="d-block w-100" alt="process2">
+                            <div class="carousel-caption d-none d-md-block bg-light opacity-75 p-0">
+                                <h5 class="fw-bold">舊-標準字</h5>
+                                <p class="fw-bold">其實這是第二代，第一代和現在使用的只有微調，因為故事變動，所以改成二代又改回去</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./img/oldCover.png" class="d-block w-100" alt="process3">
+                            <div class="carousel-caption d-none d-md-block bg-light opacity-75 p-0">
+                                <h5 class="fw-bold">舊-封面</h5>
+                                <p class="fw-bold">原本的開頭是老師遞下來一張考卷，然後會浮現標準字，後來老師不喜歡T-T，材質上也有很多的轉變</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./img/roomConcept.png" class="d-block w-100" alt="process4">
+                            <div class="carousel-caption d-none d-md-block bg-light opacity-75 p-0">
+                                <h5 class="fw-bold">房間概念圖</h5>
+                                <p class="fw-bold">盡量還原了</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProcess"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProcess"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 使用技術 -->
+
+    <div class="container-fluid bg-dark text-light d-flex justify-content-center align-items-center py-1 py-md-2 py-lg-3"
+        id="process">
+        <div class="row">
+            <h1 class="text-center fw-bolder animate__animated animate__fadeIn">使用技術</h1>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark text-light d-flex justify-content-center p-3">
+        <div class="row animate__animated animate__fadeIn animate__faster animate__delay-1s wow">
+            <div class="col-lg-4 col-md-6 col-12 my-3 d-block text-center py-3">
+                <img class="w-50 bg-light p-3" src="./img/vroid-studio-logo-800d05f0237444584e4e2fb3767fe3a4.svg" alt="vroid">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 my-3 d-block text-center pt-3">
+                <img class="" style="width: 35%;" src="./img/rokoko-favicon.png" alt="rokoko">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 my-3 d-block text-center pt-3">
+                <img class="" style="width: 40%;" src="./img/Blender_logo_no_text.svg.png" alt="blender">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 my-3 d-block text-center pt-3">
+                <img class="" style="width: 30%;" src="./img/CSP.jpg" alt="CSP">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 my-3 d-block text-center pt-3">
+                <img class="" style="width: 30%;" src="./img/Adobe_Illustrator_CC_icon.svg.png" alt="Illustrator">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 my-3 d-block text-center pt-3">
+                <img class="" style="width: 30%;" src="./img/Adobe_After_Effects_CC_icon.svg.png" alt="After_Effects">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- 分割線 -->
+    <hr class="bg-light border border-light my-0">
+
+    <!-- footer -->
+    <footer class="text-center text-lg-start" style="background-color: rgb(20, 20, 20);">
+
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                    <div class="row">
+                        <!-- footer標準字 -->
+                        <a class="col-lg-6 col-md-12 col-sm-12 justify-content-center d-flex align-items-center mt-4" href="./index.html">
+                            <img src="./img/again_word_invert.png" alt="logo" width="me-auto" height="80">
+                        </a>
+                        <!-- media -->
+                        <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center justify-content-center my-3">
+                            <a class="btn btn-outline-light m-1" href="https://www.facebook.com/" target="_blank"
+                                role="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                                    class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg>
+                            </a>
+
+                            <a class="btn btn-outline-light m-1" href="https://www.instagram.com/" target="_blank"
+                                role="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                                    class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg>
+                            </a>
+
+                            <a class="btn btn-outline-light m-1" href="https://www.youtube.com/watch?v=rgIROsK8krQ&ab_channel=%E8%94%A1%E5%8D%83%E7%8E%89" target="_blank"
+                                role="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                                    class="bi bi-youtube" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                                </svg>
+
+                                <a class="btn btn-outline-light m-1 mx-3" href="#" role="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                                        class="bi bi-chevron-up" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+                                    </svg>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                    <h5 class="text-uppercase text-light fw-bold d-flex justify-content-center">最後我們想說</h5>
+
+                    <p class="text-light d-flex justify-content-center text-start">
+                        希望您喜歡我們的影片!也希望您能找到生命中重要及想要的事，往夢想邁進吧，加油!
+                    </p>
+                    <hr class="bg-light border border-light my-0">
+                    <nav class="nav d-flex justify-content-around ">
+                        <a class="nav-link fw-bold text-secondary" href="./index.html">首頁</a>
+                        <a class="nav-link fw-bold text-secondary" href="./core.html">主旨</a>
+                        <a class="nav-link fw-bold text-secondary" href="./story.html">故事</a>
+                        <a class="nav-link fw-bold text-secondary" href="./team.html">團隊</a>
+                        <a class="nav-link fw-bold text-secondary active" aria-current="page" href="#">美術</a>
+                        <a class="nav-link fw-bold text-secondary btn" data-bs-toggle="modal" data-bs-target="#exampleModal">使用說明</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- 使用說明 -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl ">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title fw-bold" id="exampleModalLabel">使用說明</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    
+                    <div id="carouselHelp" class="carousel carousel-dark slide mx-auto w-75" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#process1" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#process2" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#process3" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#process4" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#process4" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#process4" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#process4" data-bs-slide-to="6"
+                                aria-label="Slide 7"></button>
+                            <button type="button" data-bs-target="#process4" data-bs-slide-to="7"
+                                aria-label="Slide 8"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/help1.png" class="d-block w-100" alt="help1">
+                                <div class="carousel-caption d-none d-md-block bg-light p-0">
+                                    <p class="fw-bold text-danger">摺疊按鈕--可以按</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/help2.png" class="d-block w-100" alt="help2">
+                                <div class="carousel-caption d-none d-md-block bg-light p-0">
+                                    <p class="fw-bold text-danger">頁尾的導覽列也可以點，不過當你點開使用說明的時候就已經知道了吧</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/help3.png" class="d-block w-100" alt="help3">
+                                <div class="carousel-caption d-none d-md-block bg-light p-0">
+                                    <p class="fw-bold text-danger">點這個可以回頁首</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./img/help4.png" class="d-block w-100" alt="help4">
+                                <div class="carousel-caption d-none d-md-block bg-light p-0">
+                                    <p class="fw-bold text-danger">點這些可以回首頁</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./img/help8.png" class="d-block w-100" alt="help8">
+                                <div class="carousel-caption d-none d-md-block bg-light p-0">
+                                    <p class="fw-bold text-danger">點這個也可以回首頁</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./img/help6.png" class="d-block w-100" alt="help6">
+                                <div class="carousel-caption d-none d-md-block bg-light p-0">
+                                    <p class="fw-bold text-danger">有設定輪播，可以點這兩個箭頭手動控制，但使用說明不會輪播</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./img/help7.png" class="d-block w-100" alt="help7">
+                                <div class="carousel-caption d-none d-md-block bg-light p-0">
+                                    <p class="fw-bold text-danger">向下滾動時，導覽列會收起，往上就會跑出來</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./img/help9.png" class="d-block w-100" alt="help9">
+                                <div class="carousel-caption d-none d-md-block bg-light p-0">
+                                    <p class="fw-bold text-danger">"美術"兩字是不能跳轉頁面的，請點擊下拉選單的選項</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHelp"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselHelp"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" data-bs-dismiss="modal">OK !</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- 版權文字 -->
+        <div class="text-center p-3 text-light" style="background-color: rgba(0, 0, 0, 1);">
+            © 2023 Copyright:
+            <a class="text-light" style="text-decoration:none;" href="./index.html">Again All Rights
+                Reserved.</a>
+        </div>
+
+    </footer>
+
+
+
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
